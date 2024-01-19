@@ -4,15 +4,15 @@ $(document).ready(function(){
     });
 
     $("#front").click(function(){
-        $('#modal-content').html("<img src='./maps/CragmawFront.jpg' width='768' height='432' />");
+        $('#modal-content').html("<img src='./maps/CragmawFront.jpg' width='768' height='432' /><p>Na fachada h&aacute; flecheiras visiveis. Pode haver guardas de vigila DC11 Furtividade</p>");
         $('#myModal').modal('show');
     });
     $("#bottom").click(function(){
-        $('#modal-content').html("<img src='./maps/CragmawBottom.jpg' width='768' height='432' />");
+        $('#modal-content').html("<img src='./maps/CragmawBottom.jpg' width='768' height='432' /><p>A porta est&aacute; trancada. DC15 Destreza abrir/DC25 Força </p>");
         $('#myModal').modal('show');
     });
     $("#top").click(function(){
-        $('#modal-content').html("<img src='./maps/CragmawTop.webp' width='768' height='432' />");
+        $('#modal-content').html("<img src='./maps/CragmawTop.webp' width='768' height='432' /><p>Abertura entre as ruínas DC10 Sabedoria</p>");
         $('#myModal').modal('show');
     });
 
