@@ -15,75 +15,57 @@ $(document).ready(function(){
         $('#modal-content').html("<img src='./maps/CragmawTop.webp' width='768' height='432' /><p>Abertura entre as ruínas DC10 Sabedoria</p>");
         $('#myModal').modal('show');
     });
+    $("#grick").click(function(){
+        $('#modal-content').html("<img src='./enemies/Grick_Big.jpg' width='768' height='432' />");
+        $('#myModal').modal('show');
+    });
+    $("#owlbear").click(function(){
+        $('#modal-content').html("<img src='./enemies/owlbear_big.jpg' width='768' height='432' />");
+        $('#myModal').modal('show');
+    });
 
     $("#fog02").dblclick(function(){
         $(this).fadeOut("slow");
-        //add content
+        $('#modal-content').html("<img src='./maps/02.jpg' width='768' height='432' />");
         $('#myModal').modal('show');
     });
     $("#fog03c").dblclick(function(){
         $(this).fadeOut("slow");
-        //add content
-        $('#myModal').modal('show');
     });
     $("#fog03b").dblclick(function(){
         $(this).fadeOut("slow");
-        //add content
-        $('#myModal').modal('show');
     });
     $("#fog04").dblclick(function(){
         $(this).fadeOut("slow");
-        //add content
-        $('#myModal').modal('show');
     });
     $("#fog05").dblclick(function(){
         $(this).fadeOut("slow");
-        //add content
-        $('#myModal').modal('show');
     });
     $("#fog06").dblclick(function(){
         $(this).fadeOut("slow");
-        //add content
-        $('#myModal').modal('show');
     });
     $("#fog07").dblclick(function(){
         $(this).fadeOut("slow");
-        //add content
-        $('#myModal').modal('show');
     });
     $("#fog08").dblclick(function(){
         $(this).fadeOut("slow");
-        //add content
-        $('#myModal').modal('show');
     });
     $("#fog09").dblclick(function(){
         $(this).fadeOut("slow");
-        //add content
-        $('#myModal').modal('show');
     });
     $("#fog10").dblclick(function(){
         $(this).fadeOut("slow");
-        //add content
-        $('#myModal').modal('show');
     });
     $("#fog11").dblclick(function(){
         $(this).fadeOut("slow");
-        //add content
-        $('#myModal').modal('show');
     });
     $("#fog12").dblclick(function(){
         $(this).fadeOut("slow");
-        //add content
-        $('#myModal').modal('show');
     });
     $("#fog13").dblclick(function(){
         $(this).fadeOut("slow");
-        //add content
-        $('#myModal').modal('show');
     });
     $("#fog14").dblclick(function(){
         $(this).fadeOut("slow");
-        //add content
-        $('#myModal').modal('show');
     });
 });
